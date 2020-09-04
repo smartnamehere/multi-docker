@@ -13,7 +13,7 @@
       "image": "kennetcz/multi-server",
       "hostname": "api",
       "essential": false,
-      "memory": 128 
+      "memory": 128
     },
     {
       "name": "worker",
@@ -25,6 +25,7 @@
     {
       "name": "nginx",
       "image": "kennetcz/multi-nginx",
+      "hostname": "nginx",
       "essential": true,
       "portMappings": [
         {
